@@ -1,0 +1,74 @@
+﻿
+> base44-app@0.0.0 build
+> vite build
+
+[36mvite v6.4.1 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 41 modules transformed.
+node.exe : [31mΓ£ù[39m Build failed in 
+2.40s
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifie 
+   d: ([31mΓ£ù[39m Build failed in 2.4  
+  0s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComma 
+   ndError
+ 
+[31merror during build:
+[31m[vite]: Rollup failed to resolve 
+import "canvas-confetti" from 
+"C:/Users/chuyi/Escritorio/Drive final bos
+s/PARA/Proyectos/porfavor/src/pages/GamePl
+ay.jsx".
+This is most likely unintended because it 
+can break your application at runtime.
+If you do want to externalize this module 
+explicitly add it to
+`build.rollupOptions.external`[31m
+    at viteLog (file:///C:/Users/chuyi/Esc
+ritorio/Drive%20final%20boss/PARA/Proyecto
+s/porfavor/node_modules/vite/dist/node/chu
+nks/dep-D4NMHUTW.js:46374:15)
+    at file:///C:/Users/chuyi/Escritorio/D
+rive%20final%20boss/PARA/Proyectos/porfavo
+r/node_modules/vite/dist/node/chunks/dep-D
+4NMHUTW.js:46432:18
+    at onwarn (file:///C:/Users/chuyi/Escr
+itorio/Drive%20final%20boss/PARA/Proyectos
+/porfavor/node_modules/@vitejs/plugin-reac
+t/dist/index.js:90:7)
+    at file:///C:/Users/chuyi/Escritorio/D
+rive%20final%20boss/PARA/Proyectos/porfavo
+r/node_modules/vite/dist/node/chunks/dep-D
+4NMHUTW.js:46430:7
+    at onRollupLog (file:///C:/Users/chuyi
+/Escritorio/Drive%20final%20boss/PARA/Proy
+ectos/porfavor/node_modules/vite/dist/node
+/chunks/dep-D4NMHUTW.js:46422:5)
+    at onLog (file:///C:/Users/chuyi/Escri
+torio/Drive%20final%20boss/PARA/Proyectos/
+porfavor/node_modules/vite/dist/node/chunk
+s/dep-D4NMHUTW.js:46072:7)
+    at file:///C:/Users/chuyi/Escritorio/D
+rive%20final%20boss/PARA/Proyectos/porfavo
+r/node_modules/rollup/dist/es/shared/node-
+entry.js:20961:32
+    at Object.logger [as onLog] (file:///C
+:/Users/chuyi/Escritorio/Drive%20final%20b
+oss/PARA/Proyectos/porfavor/node_modules/r
+ollup/dist/es/shared/node-entry.js:22848:9
+)
+    at 
+ModuleLoader.handleInvalidResolvedId (file
+:///C:/Users/chuyi/Escritorio/Drive%20fina
+l%20boss/PARA/Proyectos/porfavor/node_modu
+les/rollup/dist/es/shared/node-entry.js:21
+592:26)
+    at file:///C:/Users/chuyi/Escritorio/D
+rive%20final%20boss/PARA/Proyectos/porfavo
+r/node_modules/rollup/dist/es/shared/node-
+entry.js:21550:26[39m
